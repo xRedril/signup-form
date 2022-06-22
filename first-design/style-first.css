@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+    /* outline: 1px solid red; */
+}
+
+:root {
+    --color: #cc3434;
+    --txt: rgb(185, 185, 185);
+}
+
+div {
+    display: block;
+}
+
+.content {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+}
+
+.picture {
+    background-image: url(images/strawhats-all.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.content,
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.logo {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.strawhat {
+    height: 10vh;
+}
+
+h1 {
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(26, 26, 26);
+    width: 800px;
+    justify-content: center;
+}
+
+.left {
+    padding-left: 5vh;
+}
+
+.dummy-text {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    flex-flow: row wrap;
+}
+
+.dummy-text>p {
+    padding-bottom: 1.5rem;
+}
+
+.form {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 380px)
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.form>p {
+    font-size: 1.5rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.input>input {
+    width: 20vw;
+}
+
+input {
+    background-color: rgb(2, 2, 2);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+}
