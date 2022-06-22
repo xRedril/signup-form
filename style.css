@@ -21,7 +21,7 @@
 .left-div {
     width: 40%;
     height: auto;
-    background-image: url(images/strawhats-all.jpg);
+    background-image: url(images/onepiece-moving.gif);
 }
 
 .right-div {
@@ -51,6 +51,7 @@
 .logo-text {
     color: white;
     font-size: 4rem;
+    font-weight: 700;
 }
 
 .left-padding {
